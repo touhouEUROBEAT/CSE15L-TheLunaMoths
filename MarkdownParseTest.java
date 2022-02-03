@@ -86,4 +86,9 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
         assertEquals(expectedLinks, links);
     }
+
+    @Test
+    public void testFail() throws IOException {
+        assertEquals(2, 1);
+    }
 }
